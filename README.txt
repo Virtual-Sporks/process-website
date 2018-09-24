@@ -1,4 +1,9 @@
-Site detailing the process of our project on changing the narrative of volunteering.
+## Site detailing the process of our project on changing the narrative of volunteering.
+
+To-do list:
+ - fix active tags in navi bar on all pages
+ - Inspirational Designs screenshots
+
 
 Built with Hyperspace by HTML5 UP
 html5up.net | @ajlkn
