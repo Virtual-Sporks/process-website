@@ -3907,6 +3907,11 @@ input, select, textarea {
     width: 33.33%;
 }
 
+.columnBigger {
+    float: left;
+    width: 66.66%;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";

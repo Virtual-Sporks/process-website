@@ -35,21 +35,81 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Design Development</h1>
-<!--                             <h2>What is the design?</h2>
-                            The current design is geared toward users interested in finding new volunteering opportunities but not knowing where to start. It has a linear flow where the user can search for opportunities in a specific area, find out more about the events, sign up, and then are thanked and directed back to the browsing page. 
+							<h1 class="major">Design Refinement</h1>
+
+	                        <h2>What is the design?</h2>
+								Our product creates a seamless and frictionless environment for high school and college students to discover and participate in volunteering opportunities. Users are led through a minimalistic platform focused on helping match the user’s interests, location and time requirements with possible opportunities. There are also mechanisms in place to encourage users to bring friends, sign any necessary forms (specifically for high school students), and hold users accountable for showing up to the events they sign up for. 
                             <br></br>
 
-                            <h2>How is this design responsive to user needs? </h2>
-							Having our target user being akin to our “Here for it Harry” persona, we designed the site with the people in mind, typically students, who want an overview of varied but consistently relevant volunteering opportunities in their area and the chances to explore with others. These needs were primarily expressed through off-put high school students who felt forced to volunteer, despite that after most events they felt they had fun. One event they discussed which did involve friends and a more social aspect, creating lunches, was well received and is still talked about today. Other more social events with large amounts of interacting with others, like helping out a 5K, also seemed to attract more students. Because of this, we chose to increase the ease of sending links to opportunities to friends. The ability to quickly breeze through the site if you really wanted to also supports the persona of a student who simply wants to find a volunteer opportunity to get the job done while avoiding the surprising amount of contact work some opportunities involve.
-							<br></br>
 
-                            <h2>How well does it meet user needs?  In what ways does it fall short?</h2>
-							From our user visits we discovered a large frustration with finding opportunity contact information and following through. Volunteer event information was often on paper flyers or in excel spreadsheets. Information about events and contact information was often ambiguous or difficult to come by (for example "If you are interested in helping out call Sally at…"). Obtaining contact information was often inconvenient. It requires substantial activation energy to reach out to the organizers and follow up with events. Many young people bypassed this awkward searching phase by talking to people they already had relationships with, which limits their potential impact.
-							<br></br>
-							Our site provides a convenient way for users to find and sign up for a volunteer events. Curating information so the user doesn’t have to, the site has seamless communication between organizer and volunteer. Users are able to see photos and background information on the organizers and contact them in-website, avoiding difficult email chains and games of phone tag. It also makes it easy for students to share the events with their friends as discussed above.
-						
-							<br></br>
+                            <h2>What Changed?</h2>
+                            	Changes were made between the paper prototype and the current design in order to streamline the user experience, bringing pertinent information to the forefront and reducing the frivolous features that seemed to go unutilized in previous testing.
+                            	<br></br>
+                            	The largest trade off we made while moving from paper to digital prototyping was the implementation of smaller displays of functionality. Because of the limitations of Figma, the prototyping software we are using, creating even 1 drop down on a page with 2 options would require several pages to be generated. Because of this the functionality of the dropdowns and altering presented opportunities based on what users would have put in dropdowns is almost non-existent. While we would like this to be more fleshed out for the final, we made the decision early on in this phase to focus on the more important core structure, navigation, and consistency of the site.
+                            	<br></br>
+
+                            <h2>Summary of Major Changes</h2>
+                            	The most notable structural changes occured to the browsing page. In the paper prototypes the browsing page included a list view and a map view of events in the area. This was created due to a user need to better understand spatially how to get to volunteering events. However, we found through testing that people often preferred to use the list view over the map view because it was more standard to how people were used to taking in information and  often the user didn’t care exactly where the event was, as long as they knew they were able to get to the location. The replacement was a streamlined list view, including pertinent scheduling information like dates and times as well as the relative spatial information that the users need( distance from you). By removing this frivolous feature we reduced the complexity of the userflow and made users able to easily navigate to, from, and through the browse page. 
+                            	<br></br>
+								As per our heuristic evaluations we made several key changes to the visual consistency of the site as well as increased interactivity between pages. Our paper prototypes lacked many back buttons and links to other pages within the site. This was found from feedback and noticing the user were getting stuck in the site and asking “how do I go back to X page”.  By the introduction of a “nav bar” the user can jump between  the home page, free browsing, and searching. Additionally we introduced back buttons on any page that is not top level. This allows the user to be able to navigate out of pages incrementally if they accidently made a mistake or decided they no longer wanted to view that particular page.
+								<br></br>
+								In order to encourage page to page interaction in the “Event Information Page” we expanded the “Social Media”, Other Events like This”, and “More by this Organization” slide show to be all be on one flaty level where you can get to each section by scrolling. We chose to do this because we found people often kept wanting to scroll “mindlessly” though the information page but seemed less inclined to click on things. We wanted to minimize the activation energy needed to access this information. Additionally the fact that you get to this information by scrolling allows the user to not scroll if they want to not see the information.
+								From a stylistic standpoint we opted for a clean greyscale color palette with pops of bright pink. We wanted to make the site as clutter-free as possible because we found that users often got overwhelmed with the spreadsheets and busy flyers often used for reaching out about volunteer opportunities. By sticking to a limited color pallet we ensured some visual consistency. We additionally stuck with a flat shaped icons to make the entire site feel more cohesive.
+								<br></br>
+								From an information standpoint, more informative text was added to signup forms in order to increase clarity. Through the paper prototyping feedback we noticed user questioning what certain elements of the forms meant or why they were included. We hope this extra informative text will give the user the context they need despite the added clutter. 
+								<br></br>
+
+							<h2>Breakdown of Changes by Page</h2>
+
+							<div class="row">
+							  <div class="column"><br></br><h3>Homepage</h3>
+							  	The landing page when users come to our website. We simplified the vocabulary of the filters so users would intuitively have an idea of what the dropdown may contain. An immediate browse opportunities options allows more unfamiliar or unsure users to explore the site without feeling the need to give out any information.</div>
+							  <div class="columnBigger"><span class="image fit"><img src="images/designref/homepage.png" alt="" /></span></div>
+							</div>
+                            <br></br>
+
+                            <div class="row">
+							  <div class="columnBigger"><span class="image fit"><img src="images/designref/browse.png" alt="" /></span></div>
+							  <div class="column"><br></br><h3>Browse Page</h3>
+							  	The browse page uses a conventional “card” layout to display opportunities to users based on filters they applied (if any). The interaction between how users got from here to either the event or sign up page for a given card was reworked throughout the phase in accordance with research and user feedback (read more about this process below). Ultimately a hover style interaction to alert the user of its function as a button was implemented, as well as a fast sign up button.</div>
+							</div>
+                            <br></br>
+
+                            <div class="row">
+							  <div class="column"><br></br><h3>Event Page</h3>
+							  	The full dive into all the information about the chosen event. More consistent vocabulary and looks, better stand out buttons, and buttons to make navigating the site as a whole easier. Information is spaced out along the vertical axis in terms of importance, letting users decide how much information they want to take in.
+							  	<br></br>
+							  	We intend to turn the radio dial buttons next to the job types into icons based on feedback that they are currently a false affordance of clickability.</div>
+							  <div class="columnBigger"><span class="image fit"><img src="images/designref/fullEvent.png" alt="" /></span></div>
+							</div>
+                            <br></br>
+
+							<div class="row">
+							  <div class="columnBigger"><span class="image fit"><img src="images/designref/rsvp.png" alt="" /></span></div>
+							  <div class="column"><br></br><h3>RSVP Page</h3>
+							  	The user has made it to an event they want to sign up for! Keeping in the theme of minimal information input, the user can just do a barebones sign up consisting of name and email for contact reasons, or go all in with any concerns, questions, or comments they may have.</div>
+							</div>
+
+							<div class="row">
+							  <div class="column"><br></br><h3>Thank You Confirmation Page</h3>
+							  	Users are thanked for the support, encouraged to continue using the site, and most importantly and adhering to our target personas, invite others to volunteer with them! User research has yielded that volunteering is just more fun with friends and the activation of energy of actually going to an event is dramatically lowered if a friend is going to. This page serves the function of acting as an easy outlet to do just that we with various share features.</div>
+							  <div class="columnBigger"><span class="image fit"><img src="images/designref/thankYou.png" alt="" /></span></div>
+							</div>
+                            <br></br>
+
+                            <div class="row">
+							  <div class="columnBigger"><span class="image fit"><img src="images/designref/unvolunteer.png" alt="" /></span></div>
+							  <div class="column"><br></br><h3>Un-Volunteer Page (new!)</h3>
+							  	Originally a massive oversight on our part. Thanks to the feedback from Team Slotted Spoon we were alerted to the need for a way for users to rescind their sign up in case it was an accident (something rather difficult to do) or something came up. We quickly implemented it, hoping to both learn why people needed to unsign up for future information and improvements as well as maybe convincing them to stay with the event.</div>
+							</div>
+
+							<h2>Heuristic Evaluation</h2>
+								In this phase we performed a heuristic evaluation on <a href="https://docs.google.com/document/d/1-Pcln6Y1dOkGJhVFZM_C4KJgnKwFVJHXxJoWCaBBouI/edit?usp=sharing">another design team's</a> project, and received an evaluation on <a href="https://docs.google.com/document/d/1-IDenaiDphN4lIWkyyiiQ1kAM553jAhIM-7Oar0PgPI/edit?usp=sharing">our design</a> in response. A big part of examining each individual interaction we had with the other team’s product and through the Heuristic Evaluation framework made it clear that we had overlooked a lot details in our design. As people familiar with the service and what we hope our users will do, we neglected to think of possible user errors and alternative paths to the same result. Plotting out all the possible ways that users can interact with our product (i.e. how to get back to a previous screen when they accidentally click on something they didn’t intend to) is a crucial piece of our design moving forwards.
+								<br></br>
+								Also, because each individual worked on different sections of the platform largely independent of each other, we struggled with consistency across different pages and linking the pages together to create a seamless experience. Going forwards, all of the different pages will be created using the same platform. The centralization will allow our team members to reference each others’ work to maintain cohesion. 
+                            	<br></br>
+
+
                            	<h2 class="major">Ideating, Listening, & Iterating</h2>
 							<p>Starting the phase we had a curated understanding of our users through interviews, immersive volunteering, and synthesising activities. We used this gathered information to create paper prototypes before moving on to digital prototyping in the next phase. These paper protypes allowed us to iterate quickly and find flaws in our choices and assumptions.</p>
 
@@ -141,7 +201,6 @@
 							<b>April:</b> 
 						</div>
 					</section>
-
 			</div>
 
 		<!-- Footer -->
