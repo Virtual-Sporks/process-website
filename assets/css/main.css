@@ -3918,3 +3918,5 @@ input, select, textarea {
     display: table;
     clear: both;
 }
+
+.tab { margin-left: 40px; }
