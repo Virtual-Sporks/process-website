@@ -1,7 +1,6 @@
 ## Site detailing the process of our project on changing the narrative of volunteering.
 
 To-do list:
- - fix active tags in navi bar on all pages
  - Inspirational Designs screenshots
 
 
