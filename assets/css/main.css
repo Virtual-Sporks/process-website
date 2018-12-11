@@ -3902,6 +3902,15 @@ input, select, textarea {
     transform: rotate(90deg);
 }
 
+.column25 {
+    float: left;
+    width: 25.0%;
+}
+.column75 {
+    float: left;
+    width: 75.0%;
+}
+
 .column {
     float: left;
     width: 33.33%;
